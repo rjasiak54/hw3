@@ -1,0 +1,10 @@
+#PBS -l nodes=2:ppn=10,walltime=1:00
+#PBS -N LU2000_2n_10pp
+#PBS -q edu_shared
+#PBS -m abe
+#PBS -M rjasia2@uic.edu
+#PBS -e errs/LU2000_2n_10pp.err
+#PBS -o outs/LU2000_2n_10pp.out
+#PBS -d /home/rjasia2/hw2/hw3
+module load OpenMPI/3.1.4-GCC-8.3.0
+mpirun -machinefile $PBS_NODEFILE -np $PBS_NP ./main LU/LU2000.txt

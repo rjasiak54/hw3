@@ -1,0 +1,11 @@
+Epilog:  nodes=1:ppn=1
+Epilog:  walltime=00:01:00
+Epilog:  neednodes=1:ppn=1
+Epilog:  nodes=1:ppn=1
+Epilog:  walltime=00:01:00
+Epilog:  neednodes=1:ppn=1
+Epilog:  cput=00:00:11
+Epilog:  vmem=307088kb
+Epilog:  walltime=00:00:12
+Epilog:  mem=50360kb
+Epilog:  energy_used=0
